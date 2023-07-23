@@ -31,7 +31,6 @@
             left: 0 !important;
           }
           .menu__btn {
-            display: flex;
             position: absolute;
             top: 40px;
             left: 20px;
@@ -48,12 +47,14 @@
             position: absolute;
             width: 100%;
             height: 2px;
-            background-color: #616161;
+            background-color: #FF3E79;
             transition-duration: .25s;
           }
           .menu__btn  span::before {
             content: '';
             top: -8px;
+            background-color: #FF3E79;
+            border-radius: 50%;
 
           }
           .menu__btn  span::after {
@@ -96,17 +97,8 @@
           .menu__item:hover {
             color: #CFD8DC;
           }
-          .menu__toolse  {
-            display: flex;
-          }
-          .menu__toolse a{
-            width: 40px;
-            height: 40px;
-            margin-right: 10px;
-            margin-top: -5px;
-            border-radius: 50%;
-            background-color: #FF3E79;
-          }
+          
+          
     }
 
     .logo-header img {
@@ -768,6 +760,7 @@
    width: 573px;
    height: 307px;
    margin-left: 10%;
+   margin-right: 5%;
    padding-bottom: 5%;
  }
  .work-img img {
@@ -775,6 +768,10 @@
   height: 100%;
  }
  
- 
+ .init-slider {
+  height: 100px;
+  width: 300px;
+  background-color: #616161;
+ }
 }
 
